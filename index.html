@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Clicker+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+  *{
+    font-family:"Playfair Display";
+    
+  }
+  .click{
+    font-family: "Clicker Script";
+  }
+  .btn-p{
+    width: 134px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 24px;
+
+box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  }
+</style>
+</head>
+<body>
+  <header class="bg-cover bg-no-repeat h-screen" style="background-image: url(images/coffee_image.png);">
+    
+  <div class="navbar text-white shadow-sm ">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content text-white rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <li><a class="hover:bg-[#F9C06A]">Home</a></li>
+        
+        <li><a class="hover:bg-[#F9C06A]">Menu</a></li>
+        <li><a class="hover:bg-[#F9C06A]">About us</a></li>
+        <li><a class="hover:bg-[#F9C06A]">Contact us</a></li>
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-xl">BeanScene</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a class="hover:bg-[#F9C06A]">Home</a></li>
+      
+      <li><a class="hover:bg-[#F9C06A]">Menu</a></li>
+      <li><a class="hover:bg-[#F9C06A]">Contact us</a></li>
+      <li><a class="hover:bg-[#F9C06A]">About us</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <ul class="menu menu-horizontal px-1 ">
+      <li><a class="hover:bg-[#F9C06A]">Sign in</a></li>
+      
+      <li><a class="hover:bg-[#F9C06A]">Sign up</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+<div  class="mt-[165px] ml-[20px] md:ml-[96px] lg:ml-[200px] text-white"> 
+
+<p class="text-[24px] ">We’ve got your morning covered with</p>
+<h3 class="click text-[160px] md:text-[200px] lg:text-[220px]">Coffee</h3>
+<p class=" max-w-[50vh] text-[20px] ">It is best to start your day with a cup of coffee. Discover the
+  best flavours coffee you will ever have. We provide the best
+  for our customers.</p>
+<button class="btn-p text-black bg-[#F9C06A]  mt-5 hover:bg-[#A07B71] ">Order Now</button>
+
+</div>
+
+</header>
+<main>
+<!-- -----------------------------Coffee-------------  -->
+  <section>
+
+    <div class="hero bg-base-200 min-h-screen">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img
+          src="images/coffee-beans-flat.png"
+          class="max-w-sm rounded-lg shadow-2xl" />
+        <div>
+          <h1 class="text-5xl font-bold">Box Office News!</h1>
+          <p class="py-6">
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+            quasi. In deleniti eaque aut repudiandae et a id nisi.
+          </p>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+</main>
+</body>
+</html>
