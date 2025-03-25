@@ -31,9 +31,9 @@ box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
 </style>
 </head>
 <body>
-  <header class="bg-cover bg-no-repeat h-screen" style="background-image: url(images/coffee_image.png);">
+  <header class="bg-cover bg-no-repeat h-screen " style="background-image: url(images/coffee_image.png);">
     
-  <div class="navbar text-white shadow-sm ">
+  <div class="navbar text-white shadow-sm sticky top-0 backdrop-blur-[10px] ">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -83,6 +83,7 @@ box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
 
 </header>
 <main>
+  
 <!-- -----------------------------Coffee-------------  -->
   <section>
 
@@ -274,6 +275,32 @@ box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
 <button class="block btn btn-p bg-[#F9C06A] hover:bg-[#A07B71] transition ease-out duration-300 hover:scale-125 mx-auto">Join us </button>
 
 </section>
+
+<!-- ----------------------------------Advertisement----------------- -->
+<section class=" mt-[82px] relative bg-cover bg-no-repeat min-h-screen md:min-h-[574px] h-auto bg-[url('images/coffee_bg.png')]" >
+
+  <div class="absolute inset-0 bg-[rgba(96,55,9,0.8)]">
+
+  <img class="absolute bottom-0 right-0 z-10" src="images/coffee_bean.png" alt="">
+
+ <!-- ---------  -->
+ <div class="relative flex flex-col md:flex-row md:justify-around text-center md:text-left items-center pt-5 md:pt-14">
+<div>
+  <p class="block mx-auto md:mx-0 text-white text-[34px] md:text-[54px] font-[700] max-w-3/4 leading-tight">Get a chance to have an
+    Amazing morning</p>
+  <p class="block mx-auto md:mx-0 text-white text-[16px] font-[400] py-[22px] max-w-1/2 leading-tight">We are giving you are one time opportunity to
+    experience a better life with coffee.</p>
+  <button class="btn btn-p bg-[#F9C06A] hover:bg-[#A07B71] transition ease-out duration-300 hover:scale-125 mx-auto ">Order Now</button>
+</div> 
+
+<div class="relative ">
+  <img class="block z-20  relative w-3/4 mx-auto md:mx-0 md:w-full " src="images/c-cup.png " alt="">
+</div>
+ </div>
+  </div>
+
+</section>
+
 
 </main>
 </body>
